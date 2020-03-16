@@ -35,8 +35,13 @@ const DetailsComponent = ({ icons, title, text }) => (
 const ButtonsComponent = ({ title, liveLink, sourceLink }) => (
 	<ButtonsDiv>
 		<Anchor href={sourceLink} target='_blank' rel="noopener noreferrer" sourceButton>
-			<IconDiv><icons.GitHubSVG/></IconDiv><TYPOGRAPHY.Span>Source Code</TYPOGRAPHY.Span>
-		</Anchor>
+				<IconDiv><icons.GitHubSVG/></IconDiv><TYPOGRAPHY.Span>Source Code</TYPOGRAPHY.Span>
+			</Anchor>
+		{liveLink
+			? <Anchor href={liveLink} target='_blank' rel="noopener noreferrer">
+				<WhiteDot /><TYPOGRAPHY.Span>Live Site</TYPOGRAPHY.Span>
+			</Anchor>
+			: null}
 	</ButtonsDiv>
 );
 
@@ -172,7 +177,7 @@ const Anchor = styled(GAAnchor)`
 	padding: .5rem 1.2rem;
 	border-radius: ${COMMON_STYLES.BORDER_RADIUS};
 	color: ${COLORS.WHITE};
-	background-color: ${props => props.sourceButton ? COLORS.GREY_4 : COLORS.PRIMARY_LIGHT};
+	background-color: ${props => props.sourceButton ? COLORS.GREY_4 : COLORS.PRIMARY};
 
 	& > * {
 		animation: ${props => props.sourceButton ? 'none' : PULSE_EFFECT} 3s infinite;
