@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.194f122a.chunk.js",
-    "main.js.map": "/static/js/main.194f122a.chunk.js.map",
+    "main.js": "/static/js/main.27353a91.chunk.js",
+    "main.js.map": "/static/js/main.27353a91.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/js/2.6e069e02.chunk.js": "/static/js/2.6e069e02.chunk.js",
     "static/js/2.6e069e02.chunk.js.map": "/static/js/2.6e069e02.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.488800f4792fd98dec189c3f1cf8c47b.js": "/precache-manifest.488800f4792fd98dec189c3f1cf8c47b.js",
+    "precache-manifest.36f734704d62f5e020ec985e878e544c.js": "/precache-manifest.36f734704d62f5e020ec985e878e544c.js",
     "service-worker.js": "/service-worker.js",
     "static/media/StratumNo1 Bold.ttf": "/static/media/StratumNo1 Bold.135f44b0.ttf",
     "static/media/StratumNo1 Heavy.ttf": "/static/media/StratumNo1 Heavy.304df3d1.ttf",
@@ -19,6 +19,7 @@
     "static/media/adobephotoshop.15669929.svg": "/static/media/adobephotoshop.15669929.svg",
     "static/media/amazonaws.df9d1a62.svg": "/static/media/amazonaws.df9d1a62.svg",
     "static/media/angular.a243d881.svg": "/static/media/angular.a243d881.svg",
+    "static/media/avatar-2.jpg": "/static/media/avatar-2.4651a450.jpg",
     "static/media/book.png": "/static/media/book.9819b164.png",
     "static/media/camera.png": "/static/media/camera.b67bcd76.png",
     "static/media/cd.png": "/static/media/cd.edb273b4.png",
@@ -35,7 +36,7 @@
     "static/media/gmail.808f00f5.svg": "/static/media/gmail.808f00f5.svg",
     "static/media/google_translate.6c613299.svg": "/static/media/google_translate.6c613299.svg",
     "static/media/graphql.d408f109.svg": "/static/media/graphql.d408f109.svg",
-    "static/media/grouply.png": "/static/media/grouply.421302c2.png",
+    "static/media/grouply.png": "/static/media/grouply.c9645b2a.png",
     "static/media/html5.3056bf2f.svg": "/static/media/html5.3056bf2f.svg",
     "static/media/java.95c07d5d.svg": "/static/media/java.95c07d5d.svg",
     "static/media/javascript.1f606957.svg": "/static/media/javascript.1f606957.svg",
@@ -43,7 +44,7 @@
     "static/media/jquery.6f58459b.svg": "/static/media/jquery.6f58459b.svg",
     "static/media/linkedin.619231ff.svg": "/static/media/linkedin.619231ff.svg",
     "static/media/menu.342a34f2.svg": "/static/media/menu.342a34f2.svg",
-    "static/media/miscasas.png": "/static/media/miscasas.32fc88de.png",
+    "static/media/miscasas.png": "/static/media/miscasas.7232673b.png",
     "static/media/mongodb.8f2548d5.svg": "/static/media/mongodb.8f2548d5.svg",
     "static/media/mysql.27b0eaaa.svg": "/static/media/mysql.27b0eaaa.svg",
     "static/media/node-dot-js.4edea5d4.svg": "/static/media/node-dot-js.4edea5d4.svg",
@@ -63,10 +64,9 @@
     "static/media/vaw.png": "/static/media/vaw.198b383e.png",
     "static/media/visurest.png": "/static/media/visurest.981d3e1a.png",
     "static/media/vmcf.png": "/static/media/vmcf.1e6eb0eb.png",
-    "static/media/wander-pins.png": "/static/media/wander-pins.6767a4f2.png",
+    "static/media/wander-pins.png": "/static/media/wander-pins.91426712.png",
     "static/media/workout.png": "/static/media/workout.d3cbe74b.png",
-    "static/media/z-photos.png": "/static/media/z-photos.b8929a15.png",
-    "static/media/zacharymcmanus-avatar.jpg": "/static/media/zacharymcmanus-avatar.701a6f76.jpg",
-    "static/media/zacharymcmanus-resume.pdf": "/static/media/zacharymcmanus-resume.db6fbf89.pdf"
+    "static/media/z-photos.png": "/static/media/z-photos.14d7c6e4.png",
+    "static/media/zacharymcmanus-resume.pdf": "/static/media/zacharymcmanus-resume.bafb89b5.pdf"
   }
 }
