@@ -18,7 +18,7 @@ const OneActivity = ({ activity: { img, title, text } }) => (
 export class ExtracurricularSection extends Component {
 	render() {
 		return (
-			<Section id={this.props.id} title='Hobbies'>
+			<Section id={this.props.id} title='HOBBIES'>
 				<InnerDiv>
 					{EXTRACURRICULAR.map((activity, i) => <OneActivity key={i} activity={activity} />)}
 				</InnerDiv>

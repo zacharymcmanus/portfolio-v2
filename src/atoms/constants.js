@@ -99,7 +99,7 @@ export const TYPOGRAPHY = {
 		color: ${props => props.color || COLORS.GREY_1};
 	`,
 	H4: styled.h4`
-		font-size: 3.2rem;
+		font-size: 5rem;
 		letter-spacing: inherit;
 		font-family: ${props => props.fontFamily || 'Stratum'};
 		line-height: ${props => props.lineHeight || 'inherit'};
@@ -117,16 +117,16 @@ export const TYPOGRAPHY = {
 		color: ${props => props.color || COLORS.GREY_1};
 	`,
 	H6: styled.h6`
-		font-size: 2.3rem;
+		font-size: 1.8rem;
 		letter-spacing: inherit;
 		font-family: ${props => props.fontFamily || 'Stratum'};
 		line-height: ${props => props.lineHeight || 'inherit'};
 		font-weight: ${props => props.weight || 300};
 		text-align: ${props => props.align || 'left'};
-		color: ${props => props.color || COLORS.GREY_1};
+		color: ${COLORS.GREY_3};
 	`,
 	P: styled.p`
-		font-size: 1.9rem;
+		font-size: 1.7rem;
 		letter-spacing: inherit;
 		font-family: ${props => props.fontFamily || 'Stratum'};
 		line-height: ${props => props.lineHeight || 'inherit'};

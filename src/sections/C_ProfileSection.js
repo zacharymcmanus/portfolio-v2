@@ -15,7 +15,7 @@ const ListItemComponent = ({ svg, value }) => (
 export class ProfileSection extends Component {
 	render() {
 		return (
-			<Section id={this.props.id} title='About Me'>
+			<Section id={this.props.id} title='ABOUT ME'>
 				<WrapperDiv>
 					<AboutDiv className='scrollreveal'>
 						<StyledH5>Profile</StyledH5>

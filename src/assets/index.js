@@ -10,7 +10,7 @@ import FONT_THIN from './fonts/StratumNo1 Thin.ttf';
 import resumePDF from './zacharymcmanus-resume.pdf';
 
 // Avatar image
-import avatarJPG from './zacharymcmanus-avatar.jpg';
+import avatarJPG2 from './avatar-2.jpg';
 
 // Experiences images
 import svptiPNG from './experiences/svpti.png';
@@ -95,7 +95,7 @@ export const fonts = {
 
 export { resumePDF };
 
-export { avatarJPG };
+export { avatarJPG2 };
 
 export const experiencesPNGs = {
 	svptiPNG,

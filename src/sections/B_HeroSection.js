@@ -15,7 +15,7 @@ import {
 } from '../atoms';
 import {
 	resumePDF,
-	avatarJPG
+	avatarJPG2
 } from '../assets';
 
 export class HeroSection extends Component {
@@ -24,19 +24,19 @@ export class HeroSection extends Component {
 			<Section id={this.props.id} transparent>
 				<InfoDiv>
 					<AvatarDiv className='scrollreveal' />
-					<TYPOGRAPHY.H4 className='scrollreveal' color={COLORS.WHITE}>Zachary McManus</TYPOGRAPHY.H4>
+					<TYPOGRAPHY.H4 className='scrollreveal' color={COLORS.WHITE}>ZACHARY MCMANUS</TYPOGRAPHY.H4>
 					<TYPOGRAPHY.H6 className='scrollreveal' color={COLORS.WHITE}>
-						&lt;Software Engineer &#47;&gt;
+						Software Developer | Front End Engineer | UI Developer
 					</TYPOGRAPHY.H6>
-					<TYPOGRAPHY.P className='scrollreveal' color={COLORS.WHITE}>
-						"If you can imagine it, you can code it."
-					</TYPOGRAPHY.P>
+					{/* <TYPOGRAPHY.P className='scrollreveal' color={COLORS.WHITE}>
+						&lt;If you can imagine it, you can code it &#47;&gt;
+					</TYPOGRAPHY.P> */}
 					<AnchorsDiv className='scrollreveal'>
-						<Anchor onClick={() => smoothScroll('footer')}>
-							<TYPOGRAPHY.P color={COLORS.WHITE} align='center'>Contact Me</TYPOGRAPHY.P>
-						</Anchor>
-						<Anchor secondary href={resumePDF} target='_blank' rel="noopener noreferrer">
+                        <Anchor href={resumePDF} target='_blank' rel="noopener noreferrer">
 							<TYPOGRAPHY.P color={COLORS.WHITE} align='center'>Resume</TYPOGRAPHY.P>
+						</Anchor>
+						<Anchor secondary onClick={() => smoothScroll('footer')}>
+							<TYPOGRAPHY.P color={COLORS.WHITE} align='center'>Contact Me</TYPOGRAPHY.P>
 						</Anchor>
 					</AnchorsDiv>
 					<StyledSocials className='scrollreveal' />
@@ -62,7 +62,7 @@ const InfoDiv = styled.div`
 const AvatarDiv = styled.div`
 	background-size: cover;
 	background-position: center;
-	background-image: url(${avatarJPG});
+	background-image: url(${avatarJPG2});
 	height: 15rem;
 	width: 15rem;
 	border-radius: 60%;
